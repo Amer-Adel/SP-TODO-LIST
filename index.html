@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SP TODO List</title>
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+  <div class="tasks">
+    <div class="tasks-form">
+      <h2>Add A New Task</h2>
+      <input type="text" placeholder="Task Name">
+      <i class="action add fa-regular fa-square-plus"></i>
+      <div class="wrong-message">
+        <i class="fa-solid fa-exclamation fa-shake"></i>
+        <span></span>
+      </div>
+    </div>
+    <div class="tasks-container">
+      <div class="head">
+        <h2>Tasks List</h2>
+        <div class="select">
+          <div class="opt">All</div>
+          <div class="opt">Active</div>
+          <div class="opt">Done</div>
+          <i class="action fa-solid fa-left-right"></i>
+        </div>
+      </div>
+      <ul></ul>
+      <p class="no-tasks"></p>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
